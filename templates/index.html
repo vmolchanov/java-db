@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователи</title>
+</head>
+<body>
+    <ul>
+        <#list users as user>
+            <li>
+                <p>${user.id}</p>
+                <p>${user.email}</p>
+            </li>
+        </#list>
+    </ul>
+</body>
+</html>
